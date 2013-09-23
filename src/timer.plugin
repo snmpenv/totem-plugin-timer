@@ -1,0 +1,9 @@
+[Plugin]
+Module=timer
+IAge=1
+Builtin=false
+Name=Timer
+Description=Programmable timer to cause totem to exit upon expiry.
+Authors=Christopher A. Doyle
+Copyright=Copyright © 2013 Christopher A. Doyle
+Website=http://code.google.com/p/totem-plugin-timer

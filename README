@@ -1,0 +1,29 @@
+A Totem plugin that adds a configurable timer to cause totem to exit upon expiry.
+The plugin provides two ways to configure the timer:
+  - choose the menu item Movie->Timer
+  - or right click in player window and choose Timer from the pop-up menu
+  - or type Ctrl+D
+
+Note that the timer operates independent of the media state, for example:
+  - a timer can be started when no media is playing
+  - a timer that expires when no media is playing will still cause totem to exit
+  - if the media finishes before the timer expires, the timer continues on and
+upon timer expiry, totem will exit.
+  - a timer does not restart or cancel itself when the playing media is started,
+stopped, paused or changed
+  - only one timer runs at a one time, configuring a timer while one is already
+running will cancel the first timer.
+
+
+INSTALLATION
+------------
+./configure
+make
+make install  # as root
+
+
+REQUIREMENTS
+------------
+Totem Plugin Development files
+libpeas
+(In Fedora, 'yum install totem-devel libpeas-devel')
