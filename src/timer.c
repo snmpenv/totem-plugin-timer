@@ -90,7 +90,7 @@ static TimerMenuItemType timerMenuItems [] = {
   { "Cancel"        }, /* cancel the timer             - must be index 0 (TIMER_IDX_CANCEL) */
   { "Adjustable..." }, /* manually configure the timer - must be index 1 (TIMER_IDX_ADJUST) */
   {  "30m"          }, /* fixed timers start at index 2 (TIMER_IDX_FIXED_START) and must */
-  {  "60m"          }, /* have format "%dm", where %d is within TIMER_MIN..TIMER_MAX */
+  {  "60m"          }, /* have format "%3dm", where %3d is within TIMER_MIN..TIMER_MAX */
   {  "90m"          },
   { "120m"          }
 };
@@ -239,7 +239,7 @@ totem_timer_plugin_timerFixed(GtkAction *action, TotemTimerPlugin *pi) {
   int        time_raw      = 0;    /* as extracted by sscanf */
   GtkAction *cancel_action = NULL;
 
-  if (1 != sscanf(gtk_action_get_name(action), "%dm", &time_raw)) {
+  if (1 != sscanf(gtk_action_get_name(action), "%3dm", &time_raw)) {
     return; /* couldn't extract timer value from menu item name - (timerMenuItems[] is defined improperly) */
   }
 
