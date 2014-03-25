@@ -17,8 +17,8 @@ Under 'Edit' pull-down menu, select "Plugins".  In 'Configure Plugins' pop-up wi
 
 = Using plugin =
 
-Under 'Movie' pull-down menu, select 'Delete':
-http://totem-plugin-timer.googlecode.com/svn/doc/images/timer_pull_down.jpg
+Method 1: Under 'Movie' pull-down menu, select 'Delete':
+http://totem-plugin-timer.googlecode.com/svn/wiki/images/timer_pull_down.jpg
 
-Right click in video window:
-http://totem-plugin-timer.googlecode.com/svn/doc/images/timer_right_click.jpg
+Method 2: Right click in video window:
+http://totem-plugin-timer.googlecode.com/svn/wiki/images/timer_right_click.jpg
