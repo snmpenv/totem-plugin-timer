@@ -17,8 +17,8 @@ Under 'Edit' pull-down menu, select "Plugins".  In 'Configure Plugins' pop-up wi
 
 = Using plugin =
 
-Method 1: Under 'Movie' pull-down menu, select 'Delete':
+Method 1: Under 'Movie' pull-down menu, select 'Timer':
 http://totem-plugin-timer.googlecode.com/svn/wiki/images/timer_pull_down.jpg
 
-Method 2: Right click in video window:
+Method 2: Right click in video window, select 'Timer' sub-menu, then select timer value:
 http://totem-plugin-timer.googlecode.com/svn/wiki/images/timer_right_click.jpg
