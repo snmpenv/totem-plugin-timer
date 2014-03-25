@@ -1,0 +1,24 @@
+#summary Getting Started.
+
+= Compile and Install =
+
+cd totem-plugin-timer
+
+./configure
+
+make
+
+sudo make install
+
+
+= Enable plugin in totem =
+
+Under 'Edit' pull-down menu, select "Plugins".  In 'Configure Plugins' pop-up window, click button at left of plugin labelled 'Timer'.
+
+= Using plugin =
+
+Under 'Movie' pull-down menu, select 'Delete':
+http://totem-plugin-timer.googlecode.com/svn/doc/images/timer_pull_down.jpg
+
+Right click in video window:
+http://totem-plugin-timer.googlecode.com/svn/doc/images/timer_right_click.jpg
