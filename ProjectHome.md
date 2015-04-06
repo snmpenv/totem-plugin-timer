@@ -1,0 +1,1 @@
+Adds a Timer sub-menu to the Movie menu and to the right-click pop-up menu.
